@@ -8,3 +8,129 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+html, body {
+    box-sizing: border;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/*button img {
+    background-color: #540B51;   
+}*/
+
+button[alt="Search icon"] {
+    background-color: #540B51;
+}
+
+button span {
+    background-color: #4285F4;
+}
+
+h1{
+    color: #F3EAE2;
+}
+
+p {
+    color: #F3EAE2;
+}
+
+span {
+    color: #ECB12F;
+}
+
+main p {
+    color: #000000;
+    font-weight: 700;
+}
+
+main:first-child {
+    background-color: #F3EAE2;
+}
+
+h3 {
+    color: #540B51;
+    text-align: center;
+}
+
+main ul {
+    display: block;
+    visibility: visible;
+}
+
+/*MEDIA QUERY TELEPHONE*/
+  
+@media (max-width : 760px) {
+    /*Nav*/
+    nav{
+       background-color: #540B51;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+
+    }
+
+    img {
+        height: 1.5rem;
+        margin: 0.5rem 0.5rem;
+
+    }
+
+    ul {
+        display: none;
+    }
+
+    /*HEADER*/
+
+    header {
+        background-color: #540B51;
+        display: flex;
+        flex-direction: column;
+    }
+
+    h1{
+        margin: 0;
+        text-align: center;
+        padding: 2rem 0 0 0;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    header button {
+        display: flex;
+        flex-direction: column;
+        display: block;
+        margin: 0 auto;  
+    }
+
+    img[alt="Slack app screenshot"] {
+        width: 180%;
+        height: 100%;
+    }
+
+    /*MAIN*/
+
+    main section:first-child{
+        text-align: center;
+        background-color:#F3EAE2 ;
+        padding: 2.3rem;
+    }
+
+    main section:first-child p{
+        margin: 0;
+        padding: 0 0 1rem 0;
+    }
+
+    main section div {
+        margin-top: 0.5rem;
+    }
+    
+    main section ul li {
+        display: hidden;
+    }
+
+    
+
+}
