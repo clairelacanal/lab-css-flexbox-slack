@@ -58,6 +58,32 @@ main ul {
     visibility: visible;
 }
 
+main ul li {
+    list-style: none;
+}
+
+main ul li span {
+    color: #540B51;
+}
+
+main > section:nth-of-type(3) {
+    background-color: #540B51;
+}
+
+main > section:nth-of-type(3) > h3 {
+    color:#F3EAE2;
+}
+
+main > section:nth-of-type(3) > button:nth-last-of-type(1){
+    background-color: #540B51; 
+    color: white;
+}
+
+main > section:nth-of-type(3) > button:nth-last-of-type(2){
+    color: #540B51;
+}
+
+
 /*MEDIA QUERY TELEPHONE*/
   
 @media (max-width : 760px) {
@@ -126,10 +152,38 @@ main ul {
     main section div {
         margin-top: 0.5rem;
     }
+
+    h3 {
+        font-size: 1.7rem;
+        padding: 1rem 1rem 0rem 1rem;
+        margin-bottom: 0;
+    }
     
     main section ul li {
         display: hidden;
+        padding: 2rem;
     }
+
+    main ul li span {
+        font-size: 2.5rem;
+    }
+
+    main ul li > p {
+        color: black;
+        font-size: 0.9rem;
+        margin: 0;
+    }
+
+    main > section:nth-of-type(3) {
+        display: flex;
+        flex-direction: column; 
+        padding: 2rem;
+    }
+
+    
+
+    
+
 
     
 
