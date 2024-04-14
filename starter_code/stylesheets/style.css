@@ -311,6 +311,113 @@ footer > div:last-child{
     padding: 0.5rem 1rem 1rem 1rem;
 }
 
+/*TABLET*/
+
+@media (min-width: 769px) and (max-width: 1023px) {
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+header > div > h1 {
+    text-align: left;
+    font-size: 2.6rem;
+    padding-top: 3rem;
+}
+
+header > div > p {
+    text-align: left;
+    font-size: 0.8rem;
+    padding: 1rem 1rem;
+}
+
+header img[alt="Slack app screenshot" ]{
+    width: 80%;
+    margin-left: 20rem;
+    margin-top: 10rem;
+}
+
+header button:last-child {
+    margin-bottom: 5rem;
+}
+
+/*MAIN*/
+
+main section:first-child {
+    padding: 2rem 0.5rem;
+}
+
+main img[alt="Airbnb logo"] {
+    width: 10%;
+}
+
+main img[alt="NASA logo"] {
+    width: 7%;
+}
+
+main img[alt="Uber logo"] {
+    width: 7%;
+}
+
+main img[alt="Target logo"] {
+    width: 7%;
+    margin-right: 0.6rem;
+}
+
+main img[alt="New York Times logo"] {
+    width: 20%;
+    margin-bottom: 1.5rem;
+    margin-right: 0;
+    margin-top: 1rem;
+}
+
+main img[alt="Spotify logo"] {
+    width: 13%;
+    margin-right: 4rem;
+    margin-top: 1rem;
+}
+
+/*Main section 2*/
+main section:nth-child(2){
+    height: 18rem;
+}
+
+main section:nth-child(2) h3 {
+    padding-top: 2rem;
+  
+}
+
+main section:nth-child(2) ul {
+    margin-top: 0.5rem;
+    
+}
+
+main section:nth-child(2) ul {
+    display: flex;
+    flex-direction: row;
+}
+
+main section:nth-child(3) button {
+    width: 70%;  
+}
+
+
+/*footer*/
+footer ul:first-child {
+    display: flex;
+    flex-direction: row;
+}
+
+footer ul:last-child{
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+
+
+}
+
 
 
 
